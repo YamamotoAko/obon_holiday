@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>東京観光</title>
+    <meta name="description" content="東京ドームに行く方へ。" />
+    <!-- CSSファイルの貼り付け -->
+    <link rel="stylesheet" href="css/style.css" />
+    <!-- jsファイルの貼り付け -->
+    <script src="js/script.js" async></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=M+PLUS+1p:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <!-- ヘッダー -->
+    <header>
+      <div class="header_wrap wrap">
+        <h1><a href="index.html">東京観光</a></h1>
+
+        <!-- ドロワーメニューのボタン -->
+        <button class="drawerButton" onclick="drawerButton()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+
+        <nav class="header_nav drawerMenu">
+          <ul>
+            <li><a href="#tokyodome">東京ドーム</a></li>
+            <li><a href="#yasukuni">靖国神社</a></li>
+            <li><a href="#asakusa">浅草</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <div class="wrap">
+      <div class="first _img">
+        <img src="images/tokyo_header.jpg" alt="メインイラスト" />
+      </div>
+    </div>
+
+    <!-- メイン -->
+    <main>
+      <section class="sec01">
+        <h1>とりあえず東京に行ってみた</h1>
+        <p>
+          なかなか当たらないライブのチケットが当たったので東京に行ってきました。<br />
+          ライブ以外の予定はなく「せっかくだから１泊する？」くらいの気持ちで東京に行ってきました。<br />
+          雨が降ったり行き当たりばったりの1泊2日の東京観光を共有します。
+        </p>
+      </section>
+
+      <!-- 記事一覧のコーナー -->
+
+      <!-- 東京ドーム -->
+      <section class="wrap sec">
+        <div class="sec_textwrap">
+          <p class="eyebrow">TOKYO DOME</p>
+          <h2 id="tokyodome">東京ドーム</h2>
+          <p>SMTOWN LIVE 2025</p>
+          <div class="sec_buttom">
+            <a href="tokyodome.html">詳しくはこちら</a>
+          </div>
+        </div>
+        <div class="sec_img01">
+          <img src="images/tokyodome.jpg" alt="東京ドーム" />
+        </div>
+      </section>
+
+      <!-- 靖国神社 -->
+      <section class="wrap sec">
+        <div class="sec_textwrap">
+          <p class="eyebrow">YASUKUNI</p>
+          <h2 id="yasukuni">靖国神社</h2>
+          <p>
+            靖国神社参拝 <br />
+            アメ横観光
+          </p>
+          <div class="sec_buttom">
+            <a href="yasukuni.html">詳しくはこちら</a>
+          </div>
+        </div>
+        <div class="sec_img02">
+          <img src="images/yasukuni02.jpg" alt="靖国神社" />
+        </div>
+      </section>
+
+      <!-- 浅草 -->
+      <section class="wrap sec">
+        <div class="sec_textwrap">
+          <p class="eyebrow">ASAKUSA</p>
+          <h2 id="asakusa">浅草</h2>
+          <p>
+            浅草周辺 <br />
+            スカイツリー
+          </p>
+          <div class="sec_buttom">
+            <a href="asakusa.html">詳しくはこちら</a>
+          </div>
+        </div>
+        <div class="sec_img03">
+          <img src="images/asakusa01.jpg" alt="浅草寺" />
+        </div>
+      </section>
+    </main>
+    <footer>
+      <p><small>yamamoto 2025</small></p>
+    </footer>
+  </body>
+</html>
